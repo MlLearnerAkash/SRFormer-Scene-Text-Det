@@ -1,11 +1,11 @@
 _BASE_: "../Base.yaml"
 
 DATASETS:
-  TRAIN: ("totaltext_poly_train_rotate_pos",)
+  TRAIN: ("bangla_test",)
   TEST: ("totaltext_poly_test",) 
 
 MODEL:
-  WEIGHTS: "output/r_50_poly/pretrain/pretrained.pth" 
+  WEIGHTS: "/home/akash/ws/SRFormer-Scene-Text-Det/weights/pretrain_totaltext.pth" 
 
 SOLVER:
   IMS_PER_BATCH: 8

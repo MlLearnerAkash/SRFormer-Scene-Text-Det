@@ -1,0 +1,7 @@
+build/
+adet/
+demo/__pycache__
+AdelaiDet.egg-info
+datasets
+output
+weights
